@@ -1,8 +1,8 @@
 # 可选位置去除视频水印
 
-（交互式选则） （选择合适帧，开头帧可能没有水印的情况）
+（交互式选择位置） （自由选择合适帧，考虑开头帧可能没有水印的情况）
 
-dependices: python + opencv + ffmpeg
+<strong>Dependices</strong>: python + opencv + ffmpeg
 
 原理: 利用opencv进行视频解析,找到合适帧之后选则水印位置,利用ffmpeg进行去除水印.
 
